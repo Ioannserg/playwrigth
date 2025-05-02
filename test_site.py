@@ -14,5 +14,4 @@ def test_site(browser):
     checkout_page.start_checkout()
     checkout_page.fill_checkout_form('Ioann', 'Sergeeich', '123123123')
 
-    return "Тест завершен"
 
